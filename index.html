@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Siddhant Sharma">
+        <meta name="description" content="Front end practice by coding blogr landing page">
+        <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+        <title>Blog Landing Page</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <img src="./images/logo.svg" alt="Blogr logo" class="nav-logo-image">
+                <img src="./images/icon-hamburger.svg" alt="nav menu icon" class="nav-hamburger" ham_visible="true">
+                <img src="./images/icon-close.svg" alt="nav menu close icon" class="nav-close-icon" close_visible="false">
+                <div class="primary-nav-items" expanded="false">
+                    <ul>
+                        <li>Product &nbsp;<img src="./images/icon-arrow-light.svg" alt="Dropdown menu arrow" class="dropdown-menu-arrow"></li>
+                        <li>Company &nbsp;<img src="./images/icon-arrow-light.svg" alt="Dropdown menu arrow" class="dropdown-menu-arrow"></li>
+                        <li>Connect &nbsp;<img src="./images/icon-arrow-light.svg" alt="Dropdown menu arrow" class="dropdown-menu-arrow"></li>
+                    </ul>
+                    <div class="nav-login-and-signup">
+                        <span class="nav-menu-login">Login</span>
+                        <button class="sign-up-btn">Sign Up</button>
+                    </div>
+                </div>  
+            </nav>
+
+            <div class="header-text-and-items-container">
+                <div class="header-text-flex-sub-container">
+                    <h1>A modern publishing platform</h1>
+                    <p>Grow your audience and build your online brand.</p>
+                    <div class="header-text-items-button-sub-container">
+                        <span class="header-text-item-free">Start for free</span>
+                        <span class="header-text-item-more">Learn More</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- EDITOR SECTION BEGINS -->
+        <section class="editor-section">
+            <h2>Designed for the future</h2>
+            <div class="editor-major-container">
+                <div class="editor-image-container">
+                    <img src="./images/illustration-editor-desktop.svg" alt="editor" class="editor-section-image-desktop">
+                    <img src="./images/illustration-editor-mobile.svg" alt="editor" class="editor-section-image-mobile">
+                </div>
+                <div class="editor-section-text-holder">
+                    <h2>Introducing an extensible editor</h2>
+                    <p>Blogr featurs an exceedingly intuitive interface which lets you focus on
+                    on one thing creating content. The editor supports management of multiple blogs
+                    and allows easy manipulation of embeds such as images, videos and markdowns. 
+                    Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+                    <h2>Robust content management</h2>
+                    <p>Flexible content management enables users to easily move through posts.
+                    Increase the usability of your blog by adding customized categories, sections.
+                    format or flow. With this functionality you are in full control.</p>
+                </div>
+            </div>
+        </section>
+        <!-- EDITOR SECTION ENDS -->
+
+        <!-- PHONES SECTION STARTS -->
+        <section class="phones-section">
+            <div class="phones-section-main-container">
+                <div class="phones-section-image-container">
+                    <img src="./images/illustration-phones.svg" alt="phones">
+                </div>
+                <div class="phones-section-text-container">
+                    <h2>State of the Art Infrastructure</h2>
+                    <p>With reliability and speed in mind, worldwide data centers provide
+                    the backbone for ultra fast connectivity. This ensures your site will load instantly
+                    no matter where your readers are, keeping your site competitive.</p>
+                </div>
+            </div>
+        </section>
+        <!-- MOBILE SECTION ENDS -->
+
+        <!-- LAPTOPS SECTION BEGINS -->
+        <section class="laptops-section">
+            <div class="laptops-section-main-container">
+                <div class="laptops-section-image-container">
+                    <img src="./images/illustration-laptop-desktop.svg" alt="laptop" class="laptop-image-desktop">
+                    <img src="./images/illustration-laptop-mobile.svg" alt="laptop" class="laptop-image-mobile">
+                </div>
+                <div class="laptops-section-text-container">
+                    <h2>Free, open, simple</h2>
+                    <p>Blogr is a free and open source application backed by a large community of
+                    helpful developers. It supports features such as code syntax highlighting, RSS
+                    feeds, social media integration, third party commenting tools, and works seamlessly
+                    with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                    <h2>Powerful Tooling</h2>
+                    <p>Batteries included. We built a simple and straight-forward CLI tool that makes
+                    customization and deployment a breeze, but capable of producing even the most complex
+                    sites.</p>
+                </div>
+            </div>
+        </section>
+        <!-- LAPTOPS SECTION ENDS -->
+
+        <!-- FOOTER BEGINS -->
+        <footer>
+            <div class="footer-logo-container">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="Products">
+                <h3>Product</h3>
+                <p>Overview</p>
+                <p>Pricing</p>
+                <p>Marketplace</p>
+                <p>Features</p>
+                <p>Integrations</p>
+            </div>
+            <div class="company">
+                <h3>Company</h3>
+                <p>About</p>
+                <p>Team</p>
+                <p>Blog</p>
+                <p>Careers</p>
+            </div>
+            <div class="connect">
+                <h3>Connect</h3>
+                <p>Contact</p>
+                <p>Newsletter</p>
+                <p>Linkedin</p>
+            </div>
+        </footer>
+        <!-- FOOTER ENDS -->
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
